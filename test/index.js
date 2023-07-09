@@ -1,6 +1,8 @@
+// test/index.js
+
 const chai = require("chai");
 global.expect = chai.expect;
-const isPalindrome = require("../index");
+const isPalindrome = require("../index"); // make sure the path points to the correct file
 
 describe("isPalindrome", () => {
   it("returns true for 'abba'", () => {

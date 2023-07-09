@@ -12,6 +12,9 @@ function isPalindrome(word) {
   return true;
 }
 
+// Export the function so it can be used by other modules
+module.exports = isPalindrome;
+
 // Test cases
 if (require.main === module) {
   console.log("Expecting: true");
